@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Anushka_UserManagement_Consumer
+Bundle-SymbolicName: Anushka_UserManagement_Consumer
+Bundle-Version: 1.0.0.qualifier
+Export-Package: anushka_usermanagement_consumer
+Bundle-Activator: anushka_usermanagement_consumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: Anushka.UserManagement.Consumer
+Import-Package: anushka_usermanagement_producer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

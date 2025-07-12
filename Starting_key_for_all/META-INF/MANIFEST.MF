@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Starting_key_for_all
+Bundle-SymbolicName: Starting_key_for_all
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: starting_key_for_all.Activator2
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: Starting.key.for.all
+Import-Package: all_main_consumer,
+ anushka_usermanagement_consumer,
+ ashandth_drivermanagement_consumer,
+ olivea_payment_consumer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

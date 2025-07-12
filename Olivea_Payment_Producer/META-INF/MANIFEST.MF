@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Olivea_Payment_Producer
+Bundle-SymbolicName: Olivea_Payment_Producer
+Bundle-Version: 1.0.0.qualifier
+Export-Package: olivea_payment_producer
+Bundle-Activator: olivea_payment_producer.PaymentProducerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: Olivea.Payment.Producer
+Import-Package: org.osgi.framework;version="1.3.0"
+

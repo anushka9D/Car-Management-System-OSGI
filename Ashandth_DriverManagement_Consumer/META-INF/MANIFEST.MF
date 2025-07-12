@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ashandth_DriverManagement_Consumer
+Bundle-SymbolicName: Ashandth_DriverManagement_Consumer
+Bundle-Version: 1.0.0.qualifier
+Export-Package: ashandth_drivermanagement_consumer
+Bundle-Activator: ashandth_drivermanagement_consumer.DriverConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: Ashandth.DriverManagement.Consumer
+Import-Package: ashandth_drivermanagement_producer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+

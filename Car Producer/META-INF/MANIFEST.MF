@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Car_Producer
+Bundle-SymbolicName: Car_Producer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: car_producer.CarProducerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: Car.Producer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: car_producer
